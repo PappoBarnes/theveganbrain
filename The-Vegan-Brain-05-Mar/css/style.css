@@ -1,0 +1,576 @@
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*VEGAN BRAIN CSS*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* ##Table of Content##
+# Global
+# Stucture Tags
+# # # HTML Text Styling Tags
+# ID's
+# Classes
+# Media Queries
+# Social Icons
+# DROPDOWN MENU
+# Button 
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*  COLORS
+#a2d6bb - Borders / Backgrounds
+#7a2f56 - Buttons
+#b87098 - Heading / Links
+#666e70 - Body Text
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*fonts*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---
+font-family: 'Amatic SC', cursive;
+font-family: 'Abel', sans-serif;
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* GLOBAL*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+* {
+padding: 0;
+margin: 0;
+width: 100%;
+height: 500;
+font-family: Helvetica, Ariel, sans-serif;
+font-size: 20px;
+background-color: #7ecdc3;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Structure TAGS*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*title{
+background-color: #54ce21;
+color:#54ce21;
+}*/
+body{
+max-width: 100%;
+width:960px;
+margin-right: auto;
+margin-left: auto;
+margin-top:auto;
+margin-bottom: auto;
+
+
+}
+nav{
+/*margin-top: 28%;*/
+/*position: fixed;*/
+}
+menu{
+text-align: center;
+width:100%;
+background-color: #b87098;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+height:6%;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows:1fr;
+/*border:1px black solid;*/
+margin-left: auto;
+}
+header{
+background-color: #fff;
+position: /*fixed*/;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr 60px;
+width:100%;
+height:28%;
+max-width:100%;
+margin: auto;
+}
+section{
+background-color: #fff;
+/*margin-top:3%;*/
+/*padding-top:3%;*/
+width: 100%;
+height:auto;
+/*border:darkgreen .1em solid;*/
+}
+article{
+display: grid;
+width:100%;
+height:300px;
+grid-template-columns:2fr 1fr;
+grid-template-rows:1fr;
+}
+aside{
+display: grid;
+width:100%;
+height:300px;
+grid-template-columns: 2fr 3fr 1fr;
+border:3px red solid;
+}
+footer{
+padding-top:3%;
+/*margin-top:3%;*/
+width: 100%;
+height:89px;
+/*border:red 1px solid;*/
+background-color: #b87098;
+}
+ul{
+display:inline-grid;
+}
+
+
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* HTML TEXT STYLINGs*/
+
+
+h1, h2, h3, h4, h5 {
+     
+ font-family: 'Amatic SC', cursive;;
+ display: block;
+ background-color: #fff;
+}
+h1 
+{font-size:200%;
+text-align: center;}
+
+h2 p{
+
+	font-size:40%;
+}
+p{
+	font-family: 'raleway', sans-serif;
+	background-color: #fff;
+}
+a{
+font-size: 18px;
+margin-left:auto;
+margin-right: auto;
+/*padding:3%;*/
+text-decoration: none;
+justify-content: left;
+max-width: 100%;
+background-color:#/*b87098*/;
+}
+#team_images a{
+justify-content: center;
+background-color: #ffffff;
+}
+i{
+background-color: #fff;
+text-align: center;
+padding: 5%;
+width:inherit;
+height:inherit;
+}
+i a{
+font-size: 280%;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* ID's*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+#landing{
+display:grid;
+background-color: #a2d6bb;
+/*grid-template-columns:  1fr 1fr 1fr;
+grid-template-rows:1fr 1fr 1fr;
+border:black 1px solid;*/
+width: 100%;
+height:800px;
+}
+#title_image{
+/*margin-top:3%;*/
+width: 100%;
+height:400px;
+/*border:darkgreen .1em solid;*/
+}
+#footer_link_bar{
+width:390px;
+margin-right: auto;
+margin-left:auto;
+display: inline-grid;
+text-align: center;
+max-width: 100%;
+display: grid;
+grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+grid-template-rows: 2fr;}
+#form{
+/*margin-top:3%;*/
+width: 100%;
+height:600px;
+border:darkgreen .1em solid;
+}
+#header{
+background-color: #fff
+width:auto;
+border:darkgreen .1em solid;
+}
+#title{
+background-color: #fff;
+text-align: center;
+font-size:180%;
+color:#7a2f56;
+font-family: 'Amatic SC', cursive;
+
+}
+#content{
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows:1fr;
+/*border:1px orange solid;*/
+background-color: #ffffff;
+padding-top:3%;
+}
+.content_text{
+background-color: #fff ;
+}
+.content_links{
+font-family: 'raleway', sans-serif;
+	background-color: #fff;
+}
+
+#team_images{
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr 100px ;
+grid-column-gap:.8em;
+grid-template-rows:1fr;
+/*border:1px orange solid;*/
+margin-right:auto;
+margin-left: auto;
+max-width: 100%;
+background-color:#fff;
+}
+#team_images img
+{
+	background-color: #fff;
+margin-left: inherit;
+margin-right: inherit;
+width: 230px;
+height: 230px;
+/*    border: 1px orange solid;*/
+border-radius: 200px;
+
+}
+#team_bio{
+background-color: #fff;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr;
+padding-bottom:3%;
+/*border:1px orange solid;*/
+
+}
+#team_bio h2{
+background-color: #fff;
+text-align: center;
+font-size: 200%;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Classes */
+/*---___---___---___---___---*/
+/*---___---___---__---___---*/
+.landing_page{
+display: block;
+/*height: 300px;
+width:100%;*/
+/*display: grid;*/
+margin-right: auto;
+margin-left: auto;
+/*grid-template-columns:  1fr 66% 1fr;
+grid-template-rows:1fr 300px;*/
+border:white 1px solid;
+font-size: 300%;
+background-color: #a2d6bb;
+color:#fff;
+text-align: center;
+}
+.landing_page img{
+height:150px;
+width:300px;
+margin-top:6%;
+margin-left: auto;
+margin-left: auto;
+background-color: #a2d6bb;
+}
+.landing_page a{
+font-size: 0;
+}
+
+
+.landing_text{
+font-size:150%;
+margin-left: auto;
+margin-right: auto;
+height:300px;
+width: 400px;
+border:1px solid white;
+background-color: #7a2f56;
+color:#666e70;
+text-align: center;
+font-family: 'Amatic SC', cursive;
+}
+.link{
+    height: 82px;
+    font-size: 190%;
+    background-color: #b87098;
+    /* margin-top: 6%; */
+    font-family: 'Amatic SC', cursive;
+    color: #7a2f56;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+.link a,.link{
+height: 82px;
+font-size: 135%;
+background-color: #b87098;
+margin-top: 6%;
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+}
+.link:hover,.link a:hover,
+.link:hover,.link a:active {
+background-color:#a2d6bb ; 
+}
+button, .smlbtn {
+border-color: #b87098;
+border-collapse: collapse;
+height: 82px;
+font-size: 203%;
+font-weight: 700;
+background-color: #b87098;
+/*margin-top: 6%;*/
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+}
+button:hover,
+button:active{
+background-color:#985d7e;
+color:#b87098;
+}
+
+
+button:focus{
+display: none;
+}
+.smlbtn{
+
+height: 50px;
+font-size: 125%;
+}
+.smlbtn:hover{
+background-color:#985d7e ; 	
+}
+.footer_link{
+line-height: 35px;
+background-color: #b87098;
+}
+.footer_link a{
+font-size:120%;
+font-family: 'Amatic SC', cursive;
+background-color: #b87098;
+color:#7a2f56;
+}
+.copyright_text{
+background-color: #b87098;
+width:480px;
+height:30px;
+text-align: center;
+line-height: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+.copyright_text p{
+color:#a2d6bb;
+background-color: #b87098;
+font-family: 'Abel', sans-serif;}
+
+h2 .team {
+ font-size: 200%;
+
+}
+.white{background-color: #fff;}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Media Queries*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Social Icons*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+.social_bar{
+height: 50px;
+margin-bottom: 3%;
+display: grid;
+/*width:33%;*/
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo img {
+margin-top: 5%;
+background-color: #fff;
+/*margin-top: 6%;*/
+height: 210px;
+/*margin-bottom: 9%;*/
+}
+.ion-social-facebook,.ion-social-twitter, .ion-social-instagram, .ion-social-pinterest{
+color:#666e70;
+font-size: 45px;
+background-color: #fff;
+}
+.ion-social-facebook:hover,
+.iion-social-facebook:active {
+color: #985d7e;
+}
+.ion-social-twitter:hover,
+.ion-social-twitter:active {
+color: #985d7e;
+}
+.ion-social-instagram:hover,
+.ion-social-instagram:active {
+color: #985d7e;
+}
+.ion-social-pinterest:hover,
+.ion-social-pinterest:active {
+color: #985d7e;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* DROPDOWN MENU*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Dropdown Button */
+
+
+.dropbtn {
+height:82px;
+font-size: 190%;
+font-weight: 700;
+background-color: #b87098;
+/*margin-top: 6%;*/
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+padding: 16px;
+border: none;
+cursor: pointer;
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover{
+background-color: #985d7e ;
+}
+.dropbtn:focus {
+display: none;
+}
+/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+	position: relative;
+	display: inline-block;
+	}
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	margin-top: 3%;
+    border: solid .5em #b87098;
+	display: none;
+	position: absolute;
+	background-color: #a2d6bb ;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	transition:0.9s;
+	}
+	/* Links inside the dropdown */
+	.dropdown-content a {
+	font-size:150%;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	color:#7a2f56;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	}
+
+	/* Change color of dropdown links on hover */
+	.dropdown-content a:hover {background-color: #a2d6bb;}
+	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+	.show {display:block;}
+
+
+	button{
+		border-style: none;
+	}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* DROPDOWN MENU*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Dropdown Button */
+.dropbtn_2{
+height:82px;
+font-size: 190%;
+font-weight: 700;
+background-color: #b87098;
+/*margin-top: 6%;*/
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+padding: 16px;
+border: none;
+cursor: pointer;
+}
+/* Dropdown button on hover & focus */
+.dropbtn_2:hover{
+background-color: #985d7e;
+}
+.dropbtn_2:focus{
+display: none;
+}
+/* The container <div> - needed to position the dropdown content */
+	.dropdown_2{
+	position: relative;
+	display: inline-block;
+	}
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content_2{
+	margin-top: 3%;
+	border:solid .5em #b87098;
+	display: none;
+	position: absolute;
+	background-color: #a2d6bb ;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	transition:0.9s;
+	}
+	/* Links inside the dropdown */
+	.dropdown-content_2 a{
+	font-size:100%;
+	font-family: 'Amatic SC', cursive;
+
+	color:#7a2f56;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	}
+
+	/* Change color of dropdown links on hover */
+	.dropdown-content_2 a:hover {background-color: #b87098; color:#a2d6bb;}
+	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+	.show_2 {display:block;}
