@@ -1,7 +1,7 @@
 function getSearch(){
-const searchTerm = document.getElementById("search").value;
+const searchTerm = "vegan " + document.getElementById("search").value;
 const offset = 0;
-const limit = 10;
+const limit = 100;
 
 $(function() {
         

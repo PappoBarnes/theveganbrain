@@ -3,8 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-width:5.986;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:7.69;stroke-miterlimit:10;}
 </style>
-<ellipse transform="matrix(0.9986 -5.293712e-02 5.293712e-02 0.9986 -2.2973 2.2143)" class="st0" cx="40.7" cy="44.5" rx="19.8" ry="17.1"/>
-<line class="st0" x1="53.2" y1="57.5" x2="72.6" y2="75.7"/>
+<ellipse transform="matrix(0.9986 -5.293712e-02 5.293712e-02 0.9986 -2.547 2.5187)" class="st0" cx="46.3" cy="49.3" rx="25.4" ry="21.9"/>
+<line class="st0" x1="62.4" y1="66.1" x2="87.3" y2="89.5"/>
 </svg>

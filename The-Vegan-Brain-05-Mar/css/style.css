@@ -119,6 +119,7 @@ padding-top:12px;
 font-size: 36px;
 font-family: 'Amatic SC', cursive; 
 color:white;
+opacity:0.9;
 }
 fieldset{
 border: none;
@@ -172,12 +173,11 @@ background-color: #ffffff;
 i{
 background-color: #fff;
 text-align: center;
-padding: 5%;
 width:inherit;
 height:inherit;
 }
 i a{
-font-size: 280%;
+/*font-size: 200%;*/
 }
 /*---___---___---___---___---*/
 /*---___---___---___---___---*/
@@ -207,7 +207,7 @@ display: inline-grid;
 text-align: center;
 max-width: 100%;
 display: grid;
-grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+grid-template-columns: 1fr 1.5fr 1.5fr 1fr 1fr;
 grid-template-rows: 2fr;}
 #form{
 display:grid;
@@ -264,7 +264,7 @@ border-radius: 200px;
 background-color: #fff;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-border: solid 8px lightgrey;
+/*border: solid 8px lightgrey;*/
 grid-template-rows:1fr;
 padding-bottom:3%;
 
@@ -343,7 +343,7 @@ background-color: #b87098;
 /*---___---___---___---___---*/
 /*---___---___---__---___---*/
 .content_text{
-background-color: #7ecdc3 ;
+/*background-color: #7ecdc3 ;*/
 }
 .content_links{
 font-family: 'raleway', sans-serif;
@@ -479,7 +479,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 margin-top: 5%;
 background-color: #fff;
 /*margin-top: 6%;*/
-height: 210px;
+/*height: 210px;*/
 /*margin-bottom: 9%;*/
 }
 .ion-search:before 
@@ -493,7 +493,7 @@ font-size:100px;
 }
 .ion-social-facebook,.ion-social-twitter, .ion-social-instagram, .ion-social-pinterest{
 color:#666e70;
-font-size: 45px;
+font-size: 30wpx;
 background-color: #fff;
 }
 .ion-social-facebook:hover,
@@ -538,14 +538,74 @@ background-color: #985d7e ;
 display: none;
 }
 /* The container <div> - needed to position the dropdown content */
-	.dropdown {
+.dropdown {
+position: relative;
+display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+opacity:0.8;
+margin-top: 3%;
+border: solid .5em #b87098;
+display: none;
+position: absolute;
+background-color: #a2d6bb ;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+transition:0.9s;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+font-size:150%;
+font-family: 'Amatic SC', cursive;
+font-weight: 700;
+color:#7a2f56;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #a2d6bb;}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+button{
+border-style: none;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* DROPDOWN MENU*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Dropdown Button */
+.dropbtn_2{
+height:82px;
+font-size: 190%;
+font-weight: 700;
+background-color: #b87098;
+/*margin-top: 6%;*/
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+padding: 16px;
+border: none;
+cursor: pointer;
+}
+/* Dropdown button on hover & focus */
+.dropbtn_2:hover{
+background-color: #985d7e;
+}
+.dropbtn_2:focus{
+display: none;
+}
+/* The container <div> - needed to position the dropdown content */
+	.dropdown_2{
 	position: relative;
 	display: inline-block;
 	}
 	/* Dropdown Content (Hidden by Default) */
-	.dropdown-content {
+	.dropdown-content_2{
 	margin-top: 3%;
-	border: solid .5em #b87098;
+	border:solid .5em #b87098;
 	display: none;
 	position: absolute;
 	background-color: #a2d6bb ;
@@ -555,105 +615,61 @@ display: none;
 	transition:0.9s;
 	}
 	/* Links inside the dropdown */
-	.dropdown-content a {
-	font-size:150%;
+	.dropdown-content_2 a{
+	font-size:100%;
 	font-family: 'Amatic SC', cursive;
-	font-weight: 700;
 	color:#7a2f56;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 	}
 	/* Change color of dropdown links on hover */
-	.dropdown-content a:hover {background-color: #a2d6bb;}
+	.dropdown-content_2 a:hover {background-color: #b87098; color:#a2d6bb;}
 	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-	.show {display:block;}
-	button{
-	border-style: none;
-	}
+	.show_2 {display:block;}
 	/*---___---___---___---___---*/
 	/*---___---___---___---___---*/
-	/* DROPDOWN MENU*/
+	/* Media Queries*/
 	/*---___---___---___---___---*/
 	/*---___---___---___---___---*/
-	/* Dropdown Button */
-	.dropbtn_2{
-	height:82px;
-	font-size: 190%;
-	font-weight: 700;
-	background-color: #b87098;
-	/*margin-top: 6%;*/
-	font-family: 'Amatic SC', cursive;
-	color:#7a2f56;
-	padding: 16px;
-	border: none;
-	cursor: pointer;
+	@media screen and (max-width:600px){
+	header{
+	display:block;
 	}
-	/* Dropdown button on hover & focus */
-	.dropbtn_2:hover{
-	background-color: #985d7e;
+	#form{
+	width:80%;
 	}
-	.dropbtn_2:focus{
-	display: none;
+	#veggie_image
+	{
+	align-content: center;
+	height: 100%;
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	/*background-image: url(../images/veggies.png);*/
+	background-repeat: no-repeat;
+	background-size: cover;
 	}
-	/* The container <div> - needed to position the dropdown content */
-		.dropdown_2{
-		position: relative;
-		display: inline-block;
-		}
-		/* Dropdown Content (Hidden by Default) */
-		.dropdown-content_2{
-		margin-top: 3%;
-		border:solid .5em #b87098;
-		display: none;
-		position: absolute;
-		background-color: #a2d6bb ;
-		min-width: 160px;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1;
-		transition:0.9s;
-		}
-		/* Links inside the dropdown */
-		.dropdown-content_2 a{
-		font-size:100%;
-		font-family: 'Amatic SC', cursive;
-		color:#7a2f56;
-		padding: 12px 16px;
-		text-decoration: none;
-		display: block;
-		}
-		/* Change color of dropdown links on hover */
-		.dropdown-content_2 a:hover {background-color: #b87098; color:#a2d6bb;}
-		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-		.show_2 {display:block;}
-		/*---___---___---___---___---*/
-		/*---___---___---___---___---*/
-		/* Media Queries*/
-		/*---___---___---___---___---*/
-		/*---___---___---___---___---*/
-		@media screen and (max-width:600px){
-		header{
-		display:block;
-		}
-		menu
-		{
-		font-size:
-		height:2%;
-		display:block;
-		}
-		.ion-social-facebook,.ion-social-twitter, .ion-social-instagram, .ion-social-pinterest{
-		color:#a2d6bb;
-		font-size: 35px;
-		background-color: #fff;
-		}
-		a{
-		/*font-size:14px;	*/
-		}
-		.logo img{
-		/*height:150%;
-		width:150%;*/
-		}
-		#team_bio h2{
-		font-size: 30px;
-		}
-		}
+	/* background-position: center; */
+	menu
+	{
+	font-size:
+	height:2%;
+	display:block;
+	}
+	.ion-social-facebook,.ion-social-twitter, .ion-social-instagram, .ion-social-pinterest{
+	color:#a2d6bb;
+	font-size: 35px;
+	background-color: #fff;
+	}
+	a{
+	/*font-size:14px;	*/
+	}
+	.logo img{
+	/*height:150%;
+	width:150%;*/
+	}
+	#team_bio h2{
+	font-size: 30px;
+	}
+	}
