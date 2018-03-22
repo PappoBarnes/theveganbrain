@@ -29,7 +29,7 @@ $(function() {
             
                 products.forEach(function(product){
                 const newLi = document.createElement("li");
-                newLi.appendChild(document.createTextNode(product));
+                newLi.appendChild(document.createTextNode(product.name));
                 newUl.appendChild(newLi);
                 console.log(product.name);
 
