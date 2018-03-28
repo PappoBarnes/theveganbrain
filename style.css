@@ -1,0 +1,878 @@
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*VEGAN BRAIN CSS*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* ##Table of Content##
+# Global
+# Stucture Tags
+# # # HTML Text Styling Tags
+# ID's
+# Classes
+# Media Queries
+# Social Icons
+# DROPDOWN MENU
+# Button
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*  COLORS- NEW
+#CAEDC7 - (Pale Green)
+#78A485 - Dark Green
+#CEF3A5 -  Green Pastel
+#EFF36A - Yellow Bright
+#FFF293 - Darker Pastel Yellow
+////////////////////////////////////
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*fonts*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---
+font-family: 'Amatic SC', cursive;
+font-family: 'Abel', sans-serif;
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* GLOBAL*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+* {
+padding: 0;
+margin: 0;
+width: 100%;
+height: auto;
+font-family: Helvetica, Ariel, sans-serif;
+font-size: 20px;
+background-color:#78A485;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Structure TAGS*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+body{
+max-width: 100%;
+width:960px;
+margin-right: auto;
+margin-left: auto;
+margin-top:auto;
+margin-bottom: auto;
+}
+nav{
+/*margin-top: 28%;*/
+/*position: fixed;*/
+}
+menu{
+text-align: center;
+width:100%;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+height:6%;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows:1fr;
+margin-left: auto;
+}
+header{
+background-color:#CEF3A5;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr;
+width:100%;
+height:28%;
+max-width:100%;
+margin: auto;
+}
+section{
+background-color: #CAEDC7;
+width: 100%;
+height:auto;
+}
+article{
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+background-color: #fff;
+/*width: 65%;*/
+height: auto;
+margin:0 auto;
+margin-bottom: 1em;
+}
+article#about_us{
+font-size:52px;
+text-align: center;
+color:#666e70;
+font-family: 'Amatic SC', cursive;
+}
+input{
+text-align: center;
+font-size: 36px;
+font-family: 'Amatic SC', cursive;
+color:white;
+border-radius: 8px;
+}
+input::placeholder{
+text-align: center;
+padding-top:12px;
+font-size: 36px;
+font-family: 'Amatic SC', cursive;
+color:white;
+opacity:0.9;
+}
+fieldset{
+border: none;
+}
+aside{
+display: grid;
+width:100%;
+height:auto;
+}
+footer{
+padding-top:3%;
+width: 100%;
+height:89px;
+background-color: #CAEDC7;
+}
+ul{
+display:inline-grid;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* HTML TEXT STYLINGs*/
+h1, h2, h3, h4, h5 {
+font-family: 'Amatic SC', cursive;;
+display: block;
+background-color: #fff;
+}
+h1
+{font-size:200%;
+text-align: center;}
+h2 p{
+font-size:40%;
+}
+p{
+font-family:'Roboto', sans-serif;
+background-color: #fff;
+}
+a{
+/*font-size: 18px;*/
+/*margin-left:auto;*/
+/*margin-right: auto;*/
+text-decoration: none;
+/*justify-content: left;*/
+/*max-width: 100%;*/
+}
+
+i{
+background-color: #fff;
+text-align: center;
+width:inherit;
+height:inherit;
+}
+ul{
+background-color: #ffffff;
+box-shadow: 20px 20px 8px 8px rgba(0, 0, 0, 0.12);
+}
+li {
+background-color: #ffffff;
+font-family: 'Amatic SC', cursive;
+font-size: 1.5em;
+list-style: none;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* ID's*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+#about_text{
+width:80%;
+margin:0 auto;
+text-align:left;
+color:#666e70;
+font-family: 'Roboto', sans-serif;
+margin-bottom: 3%;
+}
+#content_info_grid{
+background-color:#FFF8F5 ;
+display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 1fr;
+
+}
+#landing{
+display:grid;
+background-color: #a2d6bb;
+width: 100%;
+height:800px;
+}
+#team_images a{
+justify-content: center;
+background-color: #ffffff;
+}
+#title_image{
+width: 100%;
+height:400px;
+}
+#footer_link_bar{
+width:390px;
+margin-right: auto;
+margin-left:auto;
+display: inline-grid;
+text-align: center;
+max-width: 100%;
+display: grid;
+grid-template-columns: 1fr 1.5fr 1.5fr 1fr 1fr;
+grid-template-rows: 2fr;}
+#form{
+display:grid;
+grid-template-columns: 8fr 2fr;
+width: 45%;
+opacity: 0.5;
+margin-left: auto;
+margin-right: auto;
+width: 45%;
+opacity: 0.8;
+margin-top: 15%;
+}
+form #shop{
+height:30px;
+}
+#header{
+background-color: #fff
+width:auto;
+border:darkgreen .1em solid;
+}
+#title{
+background-color: #fff;
+text-align: center;
+font-size:180%;
+color:#7a2f56;
+font-family: 'Amatic SC', cursive;
+}
+#content{
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows:1fr;
+background-color: #ffffff;
+padding-top:3%;}
+section#content{
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows:1fr;
+}
+article#main_info{
+margin-top:1.5%;
+width:95%;
+box-shadow: 9px 9px 8px 0px rgba(0, 0, 0, 0.25);
+}
+aside#reviewText{
+display:grid;
+grid-template-rows:20% 70%;
+
+
+}
+#articleOne img{
+width:100%;
+}
+#team_images{
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr 100px ;
+grid-column-gap:.8em;
+grid-template-rows:1fr;
+margin-right:auto;
+margin-left: auto;
+max-width: 100%;
+background-color:#fff;
+}
+#team_images img
+{
+background-color: #fff;
+margin-left: inherit;
+margin-right: inherit;
+border-radius: 200px;
+}
+#team_bio{
+background-color: #fff;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr;
+padding-bottom:3%;
+}
+#team_bio h2{
+background-color: #fff;
+text-align: center;
+font-size: 200%;
+}
+form #search{
+z-index: -1;
+border-radius: 8px;
+height: 57px;
+border:white 9px solid;
+}
+form #search:focus{
+background-color: lightgrey;
+outline: none;
+}
+#SearchBox{
+background-color: none;
+}
+#mainSearch{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+width:100%;
+margin:auto;
+margin-left: auto;
+margin-right: auto;
+height:400px;
+}
+#veggie_image img{
+z-index: -1;
+height:100%;
+width:100%;
+align-content: center;
+margin-left: auto;
+margin-right: auto;}
+#veggie_image{
+align-content:center;
+height:100%;
+width:100%;
+margin-left: auto;
+margin-right: auto;
+background-image: url(../images/veggies_700.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#resultSpace{
+height:500px;
+}
+#searchButton{
+background-image:url(../images/search_icon.svg);
+background-repeat: no-repeat;
+border:white 9px solid;
+border-radius:9px;
+outline:none;
+align-content:justify;
+}
+#searchButton:hover{
+background-color: #b87098;
+}
+section#resultContainer{
+display: block;
+width:50%;
+margin:auto;
+margin-bottom:6%;
+margin-left: auto;
+margin-right: auto;
+height:auto;
+font-family: 'Amatic SC', cursive;
+color:#b87098;
+background-color: #b87098;
+/*box-shadow: 2px 13px 18px 0px rgba(0, 0, 0, 0.16);*/
+}
+
+#shopGrid {
+margin: 0 auto;
+display: grid;
+width: inherit;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat 1fr;
+grid-column-gap: 15px;
+}
+#productTile{
+display:grid;
+grid-template-columns:7fr 3fr;
+grid-template-rows:
+width:80%;
+height:80%;
+margin:0 auto;
+}
+#articleOne{
+background-color:  #ffffff;
+box-shadow: 2px 3px 18px 0px rgba(0, 0, 0, 0.16);
+height: auto;
+margin:0 auto;
+}
+#articleButton{
+background: -webkit-linear-gradient(90deg, #82647a 0%, #af89a5 100%);
+background: -moz-linear-gradient(90deg, #82647a 0%, #af89a5 100%);
+background: -o-linear-gradient(90deg, #82647a 0%, #af89a5 100%);
+background: -ms-linear-gradient(90deg, #82647a 0%, #af89a5 100%);
+background: linear-gradient(0deg, #82647a 0%, #af89a5 100%);
+box-shadow: 0px 2px 6px 0px rgba(255, 98, 98, 0.32);
+width: 350px;
+height: 50px;
+font-family: 'Roboto', sans-serif;
+font-size:30px;
+color:#ffffff;
+margin-top:3%;
+}
+#articleText{
+font-family: "Amatic SC", cursive;
+color:  #626262;
+font-size: 31.36px;
+font-weight: 400;
+text-align: left;
+transform: scaleX(1.0002);/* width and height properties ommitted due to transform */
+}
+#articleOneText{
+justify-content: center;
+width:90%;
+height:auto;
+font-family: 'Roboto', sans-serif;
+}
+#articleOne a{
+height:48px;
+}
+p#articleOneText{
+padding-left:3%;
+font-size: 16px;
+}
+h1#articleHeadline{
+padding-left: 3%;
+width:97%;
+font-family: "Amatic SC", cursive;
+color:#b87098;
+font-size: 40.24px;/* Approximation due to font substitution */
+font-weight: 700;
+/*line-height: 18.01px; Approximation due to font substitution */
+text-align: left;
+/*transform: scaleX(1.0002); width and height properties ommitted due to transform */
+height:auto;
+/*padding-left:3%;*/
+}
+#reviewContent{
+box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.25);
+background-color: #FFF8F5;
+display: grid;
+grid-template-rows: 33% 33% 33%;
+grid-template-columns: 1fr;
+
+}
+#review{
+	grid-column-gap: 2%;
+	display:grid;
+	grid-template-columns: 40% 60%;
+    margin: 0 auto;
+    width: 95%;
+    box-shadow: 9px 9px 8px 0px rgba(0, 0, 0, 0.25);
+   
+    background-color: #FFF8F5;
+    margin-bottom: 3%;
+    margin-top: 3%}
+ #review img{
+ height:-webkit-fill-available;
+ }
+#reviewText p{
+margin:0 auto;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Classes */
+/*---___---___---___---___---*/
+/*---___---___---__---___---*/
+h1.content_text{
+color:#666e70;
+}
+.content_links{
+font-family: 'raleway', sans-serif;
+background-color: #fff;
+}
+.shopItem {
+border: .5px green dashed;
+font-size: 50px;
+}
+.imageConatiner{
+height:100;
+}
+.landing_page{
+display: block;
+margin-right: auto;
+margin-left: auto;
+border:white 1px solid;
+font-size: 300%;
+background-color: #a2d6bb;
+color:#fff;
+text-align: center;
+}
+.landing_page img{
+height:150px;
+width:300px;
+margin-top:6%;
+margin-left: auto;
+margin-left: auto;
+background-color: #a2d6bb;
+}
+.landing_page a{
+font-size: 0;
+}
+.landing_text{
+font-size:150%;
+margin-left: auto;
+margin-right: auto;
+height:300px;
+width: 400px;
+border:1px solid white;
+background-color: #7a2f56;
+color:#666e70;
+text-align: center;
+font-family: 'Amatic SC', cursive;
+}
+.link{
+height: 82px;
+font-size: 190%;
+background-color: #b87098;
+font-family: 'Amatic SC', cursive;
+color: #7a2f56;
+padding: 16px;
+border: none;
+cursor: pointer;
+}
+/*.link a,.link{
+height: 82px;
+font-size: 135%;
+background-color: #b87098;
+margin-top: 6%;
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+}*/
+.link:hover,.link a:hover,
+.link:hover,.link a:active {
+background-color:#a2d6bb ;
+}
+button, .smlbtn {
+border-color: #CAEDC7;
+border-collapse: collapse;
+height: 82px;
+font-size: 203%;
+font-weight: 700;
+background-color: #CAEDC7;
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+}
+button:hover,
+button:active{
+background-color:#985d7e;
+color:#b87098;
+}
+button:focus{
+display: none;
+}
+.smlbtn{
+height: 50px;
+font-size: 125%;
+}
+.smlbtn:hover{
+background-color:#985d7e ;
+}
+.footer_link{
+line-height: 35px;
+background-color: #b87098;
+}
+.footer_link a{
+font-size:120%;
+font-family: 'Amatic SC', cursive;
+background-color: #b87098;
+color:#7a2f56;
+}
+.copyright_text{
+background-color: #CAEDC7;
+height:30px;
+text-align: center;
+line-height: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+.copyright_text p{
+color:#78A485;
+background-color: #CAEDC7;
+font-family: 'Abel', sans-serif;}
+h2 .team {
+font-size: 200%;
+}
+.white{background-color:#CEF3A5;}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Social Icons*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+.social_bar{
+margin-left:5%;
+height: 0px;
+/*margin-top:18%;*/
+display: block;
+width:20%;
+}
+.social_bar a{
+font-size: 1px;
+}
+a img{
+/*height:30px;*/
+width:30px;
+}
+.logo img {
+margin-top: 5%;
+background-color: #CEF3A5;
+}
+.ion-search:before
+{
+content: "\f4a5";
+}
+button .ion-search{
+color:black;
+font-size:100px;
+}
+.ion-social-facebook,.ion-social-twitter, .ion-social-instagram, .ion-social-pinterest{
+color:#666e70;
+font-size: 30px;
+background-color: #fff;
+}
+.ion-social-facebook:hover,
+.ion-social-facebook:active {
+color: #985d7e;
+}
+.ion-social-twitter:hover,
+.ion-social-twitter:active {
+color: #985d7e;
+}
+.ion-social-instagram:hover,
+.ion-social-instagram:active {
+color: #985d7e;
+}
+.ion-social-pinterest:hover,
+.ion-social-pinterest:active {
+color: #985d7e;
+}
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* DROPDOWN MENU*/
+/*---___---___---___---___---*/
+/*---___---___---___---___---*/
+/* Dropdown Button */
+.dropbtn {
+height:82px;
+font-size: 190%;
+font-weight: 700;
+background-color: #CAEDC7;
+font-family: 'Amatic SC', cursive;
+color:#7a2f56;
+padding: 16px;
+border: none;
+cursor: pointer;
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover{
+background-color: #985d7e ;
+}
+.dropbtn:focus {
+display: none;
+}
+/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+	position: relative;
+	display: inline-block;
+	}
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	opacity:0.8;
+	margin-top: 3%;
+	border: solid .5em #b87098;
+	display: none;
+	position: absolute;
+	background-color: #a2d6bb ;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	transition:0.9s;
+	}
+	/* Links inside the dropdown */
+	.dropdown-content a {
+	font-size:150%;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	color:#7a2f56;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	}
+	/* Change color of dropdown links on hover */
+	.dropdown-content a:hover {background-color: #a2d6bb;}
+	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+	.show {display:block;}
+	button{
+	border-style: none;
+	}
+	/*---___---___---___---___---*/
+	/*---___---___---___---___---*/
+	/* DROPDOWN MENU*/
+	/*---___---___---___---___---*/
+	/*---___---___---___---___---*/
+	/* Dropdown Button */
+	.dropbtn_2{
+	height:82px;
+	font-size: 190%;
+	font-weight: 700;
+	background-color: #b87098;
+	/*margin-top: 6%;*/
+	font-family: 'Amatic SC', cursive;
+	color:#7a2f56;
+	padding: 16px;
+	border: none;
+	cursor: pointer;
+	}
+	/* Dropdown button on hover & focus */
+	.dropbtn_2:hover{
+	background-color: #985d7e;
+	}
+	.dropbtn_2:focus{
+	display: none;
+	}
+	/* The container <div> - needed to position the dropdown content */
+		.dropdown_2{
+		position: relative;
+		display: inline-block;
+		}
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content_2{
+		margin-top: 3%;
+		border:solid .5em #b87098;
+		display: none;
+		position: absolute;
+		background-color: #a2d6bb ;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		transition:0.9s;
+		}
+		/* Links inside the dropdown */
+		.dropdown-content_2 a{
+		font-size:100%;
+		font-family: 'Amatic SC', cursive;
+		color:#7a2f56;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		}
+		/* Change color of dropdown links on hover */
+		.dropdown-content_2 a:hover {background-color: #b87098; color:#a2d6bb;}
+		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+		.show_2 {display:block;}
+		/*---___---___---___---___---*/
+		/*---___---___---___---___---*/
+		/*TESTING CSS*/
+		/*---___---___---___---___---*/
+		/*---___---___---___---___---*/
+		.wrapper {
+		/*height:150px;*/
+		/*padding:1% 1%;*/
+		display: grid;
+		/*grid-row-gap: 8px;*/
+		/*margin-bottom: 3%;*/
+		/*grid-gap: 10px;*/
+		grid-template-columns:  1fr 1fr;
+		grid-template-rows: auto;
+		/*background-color: #fff;*/
+		color: #444;
+		/*padding: 3px 3px 3px 3px;*/
+		/*border:dotted 1px black;*/
+		}
+		.box {
+		/*background-color: #444;*/
+		color: #fff;
+		/*border-radius: 5px;*/
+		/*padding: 20px;*/
+		font-size: 100%;
+		}
+		.a {
+		grid-column: 1;
+		grid-row: 1;
+		/*height:180px;*/
+		}
+		.b {
+		grid-column:2;
+		grid-row: 1;
+		/*height:30px;*/
+		}
+		.c {
+		grid-column: 2;
+		grid-row: 2 ;
+		/*height:30px;*/
+		}
+		.d {
+		grid-column: 2;
+		grid-row: 3;
+		/*height:30px;*/
+		}
+		.e {
+		grid-column: 2;
+		grid-row: 3;
+		/*height:90px;*/
+		}
+		/*---___---___---___---___---
+		/*---___---___---___---___---*/
+		/* Media Queries*/
+		/*---___---___---___---___---*/
+		/*---___---___---___---___---*/
+		@media screen and (max-width:600px){
+		header{
+		display:block;
+		}
+		.social_bar{
+		height:134px;
+		width:30px;
+		}
+		.social_bar a{
+		font-size: 1px;
+		}
+		#form{
+		width:80%;
+		}
+		#veggie_image
+		{
+		align-content: center;
+		height: 100%;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		/*background-image: url(../images/veggies.png);*/
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+		/* background-position: center; */
+		menu
+		{
+		font-size:
+		height:2%;
+		display:block;
+		}
+		.ion-social-facebook,.ion-social-twitter, .ion-social-instagram, .ion-social-pinterest{
+		color:#a2d6bb;
+		font-size: 35px;
+		background-color: #fff;
+		}
+		a{
+		/*font-size:14px;	*/
+		}
+		.logo img{
+		/*height:150%;
+		width:150%;*/
+		}
+		#team_bio h2{
+		font-size: 30px;
+		}
+		#review img{
+			height:30%;
+		}
+		aside{
+ 
+    	background-color:#ffffff;
+		}
