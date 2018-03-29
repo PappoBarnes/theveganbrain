@@ -143,7 +143,7 @@ width:18%;
 }
 fieldset{
 border: none;
-width:max-content;
+/*width:max-content;*/
 }
 aside{
 display: grid;
@@ -660,6 +660,10 @@ a img{
 /*height:30px;*/
 width:30px;
 background-color: #CAEDC7;
+}
+a img:hover{
+background-color:#985d7e;
+color:#ffffff;
 }
 .logo img {
 margin-top: 5%;
