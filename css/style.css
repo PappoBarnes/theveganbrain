@@ -77,8 +77,23 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows:1fr;
 margin-left: auto;
 }
+select{
+/*width:40%;*/
+background-color:#ffffff;
+}
+#articleShop img {
+height:max-content;
+}
+#mug{
+	background-color: #fff;
+/*height: 100%;*/
+}
+label{
+/*width:80%;*/
+background-color:#ffffff;
+}
 header{
-background-color:#CEF3A5;
+background-color:#eaf5dd;
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows:1fr;
@@ -123,8 +138,12 @@ font-family: 'Amatic SC', cursive;
 color:white;
 opacity:0.9;
 }
+input#quantity{
+width:18%;
+}
 fieldset{
 border: none;
+width:max-content;
 }
 aside{
 display: grid;
@@ -159,6 +178,7 @@ font-family:'Roboto', sans-serif;
 background-color: #fff;
 }
 a{
+	background-color:#ffffff;
 /*font-size: 18px;*/
 /*margin-left:auto;*/
 /*margin-right: auto;*/
@@ -166,7 +186,10 @@ text-decoration: none;
 /*justify-content: left;*/
 /*max-width: 100%;*/
 }
-
+img a {
+float:right;
+background-color: #eaf5dd;
+}
 i{
 background-color: #fff;
 text-align: center;
@@ -196,12 +219,16 @@ color:#666e70;
 font-family: 'Roboto', sans-serif;
 margin-bottom: 3%;
 }
-#content_info_grid{
+#content_info_grid, #content_shop_grid{
 background-color:#FFF8F5 ;
 display:grid;
 grid-template-columns: 33% 33% 33%;
 grid-template-rows: 1fr;
 
+}
+#white{
+height:50px;
+background-color: white;
 }
 #landing{
 display:grid;
@@ -241,6 +268,7 @@ margin-top: 15%;
 form #shop{
 height:30px;
 }
+
 #header{
 background-color: #fff
 width:auto;
@@ -272,11 +300,23 @@ box-shadow: 9px 9px 8px 0px rgba(0, 0, 0, 0.25);
 aside#reviewText{
 display:grid;
 grid-template-rows:20% 70%;
-
-
+}
+#reviewText p{
+font-size: 16px;
+}
+#size{
+width:18%;
+background-color:#ffffff:;
+color:#626262;
+}
+#articleShop img{
+/*width:100%;*/
+height:180px;
+height: max-content;
 }
 #articleOne img{
 width:100%;
+height:150px;
 }
 #team_images{
 margin-left: auto;
@@ -424,7 +464,7 @@ transform: scaleX(1.0002);/* width and height properties ommitted due to transfo
 }
 #articleOneText{
 justify-content: center;
-width:90%;
+width:97%;
 height:auto;
 font-family: 'Roboto', sans-serif;
 }
@@ -599,7 +639,8 @@ font-family: 'Abel', sans-serif;}
 h2 .team {
 font-size: 200%;
 }
-.white{background-color:#CEF3A5;}
+.white{background-color:#eaf5dd;
+}
 /*---___---___---___---___---*/
 /*---___---___---___---___---*/
 /* Social Icons*/
@@ -618,10 +659,11 @@ font-size: 1px;
 a img{
 /*height:30px;*/
 width:30px;
+background-color: #CAEDC7;
 }
 .logo img {
 margin-top: 5%;
-background-color: #CEF3A5;
+background-color: #eaf5dd;
 }
 .ion-search:before
 {
