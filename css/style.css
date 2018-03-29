@@ -244,6 +244,10 @@ background-color: #ffffff;
 width: 100%;
 height:400px;
 }
+#contact{
+	background-color: #ffffff;
+height:500px;
+}
 #footer_link_bar{
 width:390px;
 margin-right: auto;
@@ -922,3 +926,11 @@ display: none;
  
     	background-color:#ffffff;
 		}
+
+		#content_info_grid, #content_shop_grid{
+		display:block;
+		}
+
+
+
+
