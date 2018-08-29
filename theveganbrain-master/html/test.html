@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<!--Document Head-->
+	<head>
+		<title>The Vegan Brian</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/test.css">
+		<link rel="stylesheet" type="text/css" href="../css/ionicons.css">
+		<link rel="stylesheet" type="text/css" href="../css/ionicons.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC" rel="stylesheet">
+		<link rel="script" type="text/javascript" href="../js/dropdown.js">
+	</head>
+	<!--End of Document Head -->
+	<!-- Document Body -->
+	<body>
+		<!--HEADER-->
+		<header>
+			<div></div>
+			<div class="logo"><img src="../images/logo_no.svg"></div>
+			<div></div>
+			<div></div>
+			<h1 id="title"> :: Find Your Inner Vegan :: </h1>
+			<div></div><div></div>
+			<div class="social_bar">
+				
+				<i><a href="http://www.facebook.com" class="ion-social-facebook"></a></i>
+				<i><a href="http://www.twitter.com" class="ion-social-twitter"></a></i>
+				<i><a href="http://www.instagram.com" class="ion-social-instagram"></a></i>
+				<i><a href="http://www.pinterest.com" class="ion-social-pinterest"></a></i>
+			</div>
+			<div></div>
+		</header>
+		
+		<!--End of Header-->
+		<!--NAVIGATION BAR-->
+		
+		<menu>
+		<a href="index.html"><button>About Us</button></a>
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">Supermarkets</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="#">Tesco</a>
+				<a href="#">Co-Op</a>
+				<a href="#">Sainsburys</a>
+				<a href="#">Waitrose</a>
+				<a href="#">Aldi</a>
+				<a href="#">Morrisons</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+
+		/* When the user clicks on the button,
+		toggle between hiding and showing the dropdown content */
+
+		function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+		}
+		// Close the dropdown menu if the user clicks outside of it
+		
+		window.onclick = function(event) {
+		if (!event.target.matches('.dropbtn')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		var openDropdown = dropdowns[i];
+		if (openDropdown.classList.contains('show')) {
+		openDropdown.classList.remove('show');
+		}
+		}
+		}
+		}
+		</script>
+		<a href="info.html"><button>Useful Info</button></a>
+		<a href="index.html"><button>contact</button></a>
+		</menu>
+		
+		<!--End of Navigation Bar-->
+		<!--Title Image -->
+		<section id="title_image">
+			
+		</section>
+		<footer>
+			<div id="footer_link_bar">
+				<div class="footer_link"><a href="#">About</a></div>
+				<div class="footer_link"><a href="#">Supermarkets</a></div>
+				<div class="footer_link"><a href="#">Useful Info</a></div>
+				<div class="footer_link"><a href="#">Contact</a></div>
+			</div>
+			<div class="copyright_text"><p>&copy;Copyright The Vegan Brain	</div>
+		</footer>
+	</body>
+</html>
